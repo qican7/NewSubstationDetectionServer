@@ -1,0 +1,86 @@
+﻿生成启动时间为 2017/6/28 11:55:19。
+项目“E:\代码备份\NewSubstationDetectionServer_06_26\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”在节点 2 上(rebuild 个目标)。
+_PrepareForClean:
+  正在删除文件“Debug\NewSubstationDetectionServer.lastbuildstate”。
+InitializeBuildStatus:
+  正在创建“Debug\NewSubstationDetectionServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\NewSubstationDetectionServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\NewSubstationDetectionServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt changeColor.cpp CvvImage.cpp MainDlg.cpp NewSubstationDetectionServer.cpp NewSubstationDetectionServerDlg.cpp Utils.cpp WinsockMatTransmissionServer.cpp WinsockMatTransmissionServer_1.cpp
+  WinsockMatTransmissionServer_1.cpp
+f:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+          f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+  WinsockMatTransmissionServer.cpp
+f:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+          f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+  Utils.cpp
+f:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+          f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+e:\代码备份\newsubstationdetectionserver_06_26\newsubstationdetectionserver\utils.cpp(35): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\代码备份\newsubstationdetectionserver_06_26\newsubstationdetectionserver\utils.cpp(43): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+e:\代码备份\newsubstationdetectionserver_06_26\newsubstationdetectionserver\utils.cpp(71): warning C4172: 返回局部变量或临时变量的地址
+  NewSubstationDetectionServerDlg.cpp
+f:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+          f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+  NewSubstationDetectionServer.cpp
+  MainDlg.cpp
+f:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+          f:\opencv\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+  CvvImage.cpp
+  changeColor.cpp
+  正在生成代码...
+e:\代码备份\newsubstationdetectionserver_06_26\newsubstationdetectionserver\winsockmattransmissionserver.cpp(63): warning C4715: “WinsockMatTransmissionServer::socketConnect”: 不是所有的控件路径都返回值
+e:\代码备份\newsubstationdetectionserver_06_26\newsubstationdetectionserver\winsockmattransmissionserver_1.cpp(63): warning C4715: “WinsockMatTransmissionServer_1::socketConnect”: 不是所有的控件路径都返回值
+ResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\NewSubstationDetectionServer.res" NewSubstationDetectionServer.rc 
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\NewSubstationDetectionServer.exe.embed.manifest.res" Debug\NewSubstationDetectionServer_manifest.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\代码备份\NewSubstationDetectionServer_06_26\Debug\NewSubstationDetectionServer.exe" /INCREMENTAL /NOLOGO opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib opencv_gpu231d.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_ts231d.lib opencv_video231d.lib /MANIFEST /ManifestFile:"Debug\NewSubstationDetectionServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\代码备份\NewSubstationDetectionServer_06_26\Debug\NewSubstationDetectionServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\代码备份\NewSubstationDetectionServer_06_26\Debug\NewSubstationDetectionServer.lib" /MACHINE:X86 Debug\NewSubstationDetectionServer.res
+  Debug\NewSubstationDetectionServer.exe.embed.manifest.res
+  Debug\changeColor.obj
+  Debug\CvvImage.obj
+  Debug\MainDlg.obj
+  Debug\NewSubstationDetectionServer.obj
+  Debug\NewSubstationDetectionServerDlg.obj
+  Debug\stdafx.obj
+  Debug\Utils.obj
+  Debug\WinsockMatTransmissionServer.obj
+  Debug\WinsockMatTransmissionServer_1.obj
+Manifest:
+  正在删除文件“Debug\NewSubstationDetectionServer.exe.embed.manifest”。
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\NewSubstationDetectionServer.exe.embed.manifest" /manifest Debug\NewSubstationDetectionServer.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\NewSubstationDetectionServer.exe.embed.manifest.res" Debug\NewSubstationDetectionServer_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\代码备份\NewSubstationDetectionServer_06_26\Debug\NewSubstationDetectionServer.exe" /INCREMENTAL /NOLOGO opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib opencv_gpu231d.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_ts231d.lib opencv_video231d.lib /MANIFEST /ManifestFile:"Debug\NewSubstationDetectionServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\代码备份\NewSubstationDetectionServer_06_26\Debug\NewSubstationDetectionServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\代码备份\NewSubstationDetectionServer_06_26\Debug\NewSubstationDetectionServer.lib" /MACHINE:X86 Debug\NewSubstationDetectionServer.res
+  Debug\NewSubstationDetectionServer.exe.embed.manifest.res
+  Debug\changeColor.obj
+  Debug\CvvImage.obj
+  Debug\MainDlg.obj
+  Debug\NewSubstationDetectionServer.obj
+  Debug\NewSubstationDetectionServerDlg.obj
+  Debug\stdafx.obj
+  Debug\Utils.obj
+  Debug\WinsockMatTransmissionServer.obj
+  Debug\WinsockMatTransmissionServer_1.obj
+  NewSubstationDetectionServer.vcxproj -> E:\代码备份\NewSubstationDetectionServer_06_26\Debug\NewSubstationDetectionServer.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\NewSubstationDetectionServer.unsuccessfulbuild”。
+  正在对“Debug\NewSubstationDetectionServer.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\代码备份\NewSubstationDetectionServer_06_26\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:30.83

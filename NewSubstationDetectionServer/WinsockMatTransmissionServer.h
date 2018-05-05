@@ -37,7 +37,6 @@
 		char buf_1[BUFFER_SIZE];
 		char buf_2[BUFFER_SIZE];
 		int flag;  
-		int position;
 		string deviceType;
 		int x;
 		int y;
@@ -49,12 +48,7 @@
 		float diffTemp;
 		float speed;
 		int level ;
-		int year;
-		int month;
-		int day;
-		int hour;
-		int minute;
-		int second;
+        string detectTime;
     };  
       
     class WinsockMatTransmissionServer  
@@ -81,7 +75,7 @@
         // params : image   待接收图像  
         // return : -1      接收失败  
         //          1       接收成功  
-		int receive(cv::Mat image,cv::Mat image_1,cv::Mat image_2,int &position,string &deviceType,int &x,int &y,int &abnormalDimension,float &areaMaxTemp,float &areaAvgTemp,float &referTemp,float &enviTemp, float &diffTemp,float &speed,int &level, int &year,int &month,int &day,int &hour,int &minute,int &second);  
+		int receive(cv::Mat image,cv::Mat image_1,cv::Mat image_2,string &deviceType,int &x,int &y,int &abnormalDimension,float &areaMaxTemp,float &areaAvgTemp,float &referTemp,float &enviTemp, float &diffTemp,float &speed,int &level, string &detectTime);  
 
       
       

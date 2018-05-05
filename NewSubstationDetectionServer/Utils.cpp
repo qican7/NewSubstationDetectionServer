@@ -26,6 +26,7 @@ CString stringToCString(string data){
 }
 
 
+
 char* CStringToChar(CString data){
 
 	char *data1 = new char[100];
@@ -52,6 +53,14 @@ extern CString Save2Float(float data){
 	char data_1[10] = {0};
 	sprintf(data_1,"%0.2f",data);
 	return (CString)data_1;
+}
+
+
+string CStringToString(CString data){
+
+	string s = CT2CA(data.GetBuffer(0));
+	return s;
+
 }
 
 

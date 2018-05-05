@@ -288,48 +288,48 @@ UINT receiveThread_1(LPVOID lpParameter)//必须声明为UINT类型
 		return 0;  
 	}  
 
-	CNewSubstationDetectionServerDlg *Dlg = (CNewSubstationDetectionServerDlg*) lpParameter;
-	char* name = new char[30];
-	cv::Mat image; 
-	cv::Mat image_1; 
-	cv::Mat image_2;
-	int position;
-	string deviceType;
-	int x = 0;
-	int y = 0;
-	int abnormalDimension = 0;
-	float areaMinTemp = 0;
-	float areaMaxTemp = 0;
-	float areaAvgTemp = 0;
-	float referTemp = 0;
-	float diffTemp = 0;
-	float speed = 0;
-	int level = 0;
-	int year = 0;
-	int month = 0;
-	int day = 0;
-	int hour = 0;
-	int minute = 0;
-	int second = 0;
-        while (1)  
-        {  
-             if(socketMat_1.receive(image,image_1,image_2,position,deviceType,x,y,abnormalDimension,areaMinTemp,areaMaxTemp,areaAvgTemp,referTemp,diffTemp,speed,level,year,month,day,hour,minute,second) > 0)   
-            {  
+	//CNewSubstationDetectionServerDlg *Dlg = (CNewSubstationDetectionServerDlg*) lpParameter;
+	//char* name = new char[30];
+	//cv::Mat image; 
+	//cv::Mat image_1; 
+	//cv::Mat image_2;
+	//int position;
+	//string deviceType;
+	//int x = 0;
+	//int y = 0;
+	//int abnormalDimension = 0;
+	//float areaMinTemp = 0;
+	//float areaMaxTemp = 0;
+	//float areaAvgTemp = 0;
+	//float referTemp = 0;
+	//float diffTemp = 0;
+	//float speed = 0;
+	//int level = 0;
+	//int year = 0;
+	//int month = 0;
+	//int day = 0;
+	//int hour = 0;
+	//int minute = 0;
+	//int second = 0;
+ //       while (1)  
+ //       {  
+ //            if(socketMat_1.receive(image,image_1,image_2,position,deviceType,x,y,abnormalDimension,areaMinTemp,areaMaxTemp,areaAvgTemp,referTemp,diffTemp,speed,level,year,month,day,hour,minute,second) > 0)   
+ //           {  
 
-                cv::imshow("image",image);  
-				cv::imshow("image_1",image_1);
-                //cv::waitKey(30); 
-				imwrite("image.jpg",image);
-				imwrite("image_1.jpg",image_1);
-				
-				
-				//std::cout<<name<<" "<<temp<<" "<<positionTemp<<std::endl; 
-				/*picCount++;
-				std::cout<<picCount<<std::endl; */
-            }  
-        }  
-      
-		socketMat_1.socketDisconnect(); 
+ //               cv::imshow("image",image);  
+	//			cv::imshow("image_1",image_1);
+ //               //cv::waitKey(30); 
+	//			imwrite("image.jpg",image);
+	//			imwrite("image_1.jpg",image_1);
+	//			
+	//			
+	//			//std::cout<<name<<" "<<temp<<" "<<positionTemp<<std::endl; 
+	//			/*picCount++;
+	//			std::cout<<picCount<<std::endl; */
+ //           }  
+ //       }  
+ //     
+	//	socketMat_1.socketDisconnect(); 
 
 	
 	return 0;

@@ -185,10 +185,10 @@
     <None Include="res\NewSubstationDetectionServer.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\NewSubstationDetection_06_26_1\NewSubstationDetection\dataBaseUtils.h" />
     <ClInclude Include="AnalysisDlg.h" />
     <ClInclude Include="changeColor.h" />
     <ClInclude Include="CvvImage.h" />
+    <ClInclude Include="dataBaseUtils.h" />
     <ClInclude Include="DetailsDlg.h" />
     <ClInclude Include="MainDlg.h" />
     <ClInclude Include="NewSubstationDetectionServer.h" />
@@ -201,10 +201,10 @@
     <ClInclude Include="WinsockMatTransmissionServer_1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\NewSubstationDetection_06_26_1\NewSubstationDetection\dataBaseUtils.cpp" />
     <ClCompile Include="AnalysisDlg.cpp" />
     <ClCompile Include="changeColor.cpp" />
     <ClCompile Include="CvvImage.cpp" />
+    <ClCompile Include="dataBaseUtils.cpp" />
     <ClCompile Include="DetailsDlg.cpp" />
     <ClCompile Include="MainDlg.cpp" />
     <ClCompile Include="NewSubstationDetectionServer.cpp" />

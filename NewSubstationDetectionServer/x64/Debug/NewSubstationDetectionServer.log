@@ -1,5 +1,5 @@
-﻿生成启动时间为 2018/4/13 星期五 17:13:04。
-     1>项目“F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”在节点 2 上(rebuild 个目标)。
+﻿生成启动时间为 2018/5/5 星期六 22:29:50。
+     1>项目“F:\code\NewSubstationDetectionServer\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“x64\Debug\NewSubstationDetectionServer.lastbuildstate”。
        InitializeBuildStatus:
@@ -7,7 +7,7 @@
        ClCompile:
          e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\NewSubstationDetection_06_26_1\NewSubstationDetection\dataBaseUtils.cpp AnalysisDlg.cpp changeColor.cpp CvvImage.cpp DetailsDlg.cpp MainDlg.cpp NewSubstationDetectionServer.cpp NewSubstationDetectionServerDlg.cpp Utils.cpp WinsockMatTransmissionServer.cpp WinsockMatTransmissionServer_1.cpp
+         e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt AnalysisDlg.cpp changeColor.cpp CvvImage.cpp dataBaseUtils.cpp DetailsDlg.cpp MainDlg.cpp NewSubstationDetectionServer.cpp NewSubstationDetectionServerDlg.cpp Utils.cpp WinsockMatTransmissionServer.cpp WinsockMatTransmissionServer_1.cpp
          WinsockMatTransmissionServer_1.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
@@ -17,10 +17,10 @@
          Utils.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>Utils.cpp(45): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>Utils.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Utils.cpp(46): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>Utils.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(371) : 参见“sprintf”的声明
-     1>Utils.cpp(81): warning C4172: 返回局部变量或临时变量的地址
+     1>Utils.cpp(90): warning C4172: 返回局部变量或临时变量的地址
          NewSubstationDetectionServerDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
@@ -30,9 +30,11 @@
          MainDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>MainDlg.cpp(172): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-     1>MainDlg.cpp(241): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>MainDlg.cpp(160): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
          DetailsDlg.cpp
+     1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
+         dataBaseUtils.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
          CvvImage.cpp
@@ -52,23 +54,20 @@
      1>AnalysisDlg.cpp(713): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
      1>AnalysisDlg.cpp(745): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
      1>AnalysisDlg.cpp(745): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-         dataBaseUtils.cpp
-     1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
          Generating Code...
-     1>f:\代码备份\项目代码备份_2018\newsubstationdetectionserver_04_06\newsubstationdetectionserver\winsockmattransmissionserver.cpp(63): warning C4715: “WinsockMatTransmissionServer::socketConnect”: 不是所有的控件路径都返回值
-     1>f:\代码备份\项目代码备份_2018\newsubstationdetectionserver_04_06\newsubstationdetectionserver\winsockmattransmissionserver_1.cpp(63): warning C4715: “WinsockMatTransmissionServer_1::socketConnect”: 不是所有的控件路径都返回值
+     1>f:\code\newsubstationdetectionserver\newsubstationdetectionserver\winsockmattransmissionserver.cpp(63): warning C4715: “WinsockMatTransmissionServer::socketConnect”: 不是所有的控件路径都返回值
+     1>f:\code\newsubstationdetectionserver\newsubstationdetectionserver\winsockmattransmissionserver_1.cpp(63): warning C4715: “WinsockMatTransmissionServer_1::socketConnect”: 不是所有的控件路径都返回值
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\NewSubstationDetectionServer.res" NewSubstationDetectionServer.rc 
        ManifestResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\NewSubstationDetectionServer.exe.embed.manifest.res" x64\Debug\NewSubstationDetectionServer_manifest.rc 
        Link:
-         e:\software_new\vs_2010_install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\x64\Debug\NewSubstationDetectionServer.exe" /INCREMENTAL /NOLOGO libmysql.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib /MANIFEST /ManifestFile:"x64\Debug\NewSubstationDetectionServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\x64\Debug\NewSubstationDetectionServer.pdb" /SUBSYSTEM:WINDOWS /STACK:"16777216" /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\x64\Debug\NewSubstationDetectionServer.lib" /MACHINE:X64 x64\Debug\NewSubstationDetectionServer.res
+         e:\software_new\vs_2010_install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.exe" /INCREMENTAL /NOLOGO libmysql.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib /MANIFEST /ManifestFile:"x64\Debug\NewSubstationDetectionServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.pdb" /SUBSYSTEM:WINDOWS /STACK:"16777216" /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.lib" /MACHINE:X64 x64\Debug\NewSubstationDetectionServer.res
          x64\Debug\NewSubstationDetectionServer.exe.embed.manifest.res
-         x64\Debug\dataBaseUtils.obj
          x64\Debug\AnalysisDlg.obj
          x64\Debug\changeColor.obj
          x64\Debug\CvvImage.obj
+         x64\Debug\dataBaseUtils.obj
          x64\Debug\DetailsDlg.obj
          x64\Debug\MainDlg.obj
          x64\Debug\NewSubstationDetectionServer.obj
@@ -77,18 +76,18 @@
          x64\Debug\Utils.obj
          x64\Debug\WinsockMatTransmissionServer.obj
          x64\Debug\WinsockMatTransmissionServer_1.obj
-         NewSubstationDetectionServer.vcxproj -> F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\x64\Debug\NewSubstationDetectionServer.exe
+         NewSubstationDetectionServer.vcxproj -> F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.exe
        Manifest:
          正在删除文件“x64\Debug\NewSubstationDetectionServer.exe.embed.manifest”。
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\NewSubstationDetectionServer.exe.embed.manifest" /manifest x64\Debug\NewSubstationDetectionServer.exe.intermediate.manifest e:\software_new\vs_2010_install\VC\Include\Manifest\dpiaware.manifest
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\NewSubstationDetectionServer.exe.embed.manifest.res" x64\Debug\NewSubstationDetectionServer_manifest.rc 
        LinkEmbedManifest:
-         e:\software_new\vs_2010_install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\x64\Debug\NewSubstationDetectionServer.exe" /INCREMENTAL /NOLOGO libmysql.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib /MANIFEST /ManifestFile:"x64\Debug\NewSubstationDetectionServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\x64\Debug\NewSubstationDetectionServer.pdb" /SUBSYSTEM:WINDOWS /STACK:"16777216" /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\x64\Debug\NewSubstationDetectionServer.lib" /MACHINE:X64 x64\Debug\NewSubstationDetectionServer.res
+         e:\software_new\vs_2010_install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.exe" /INCREMENTAL /NOLOGO libmysql.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib /MANIFEST /ManifestFile:"x64\Debug\NewSubstationDetectionServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.pdb" /SUBSYSTEM:WINDOWS /STACK:"16777216" /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.lib" /MACHINE:X64 x64\Debug\NewSubstationDetectionServer.res
          x64\Debug\NewSubstationDetectionServer.exe.embed.manifest.res
-         x64\Debug\dataBaseUtils.obj
          x64\Debug\AnalysisDlg.obj
          x64\Debug\changeColor.obj
          x64\Debug\CvvImage.obj
+         x64\Debug\dataBaseUtils.obj
          x64\Debug\DetailsDlg.obj
          x64\Debug\MainDlg.obj
          x64\Debug\NewSubstationDetectionServer.obj
@@ -97,12 +96,12 @@
          x64\Debug\Utils.obj
          x64\Debug\WinsockMatTransmissionServer.obj
          x64\Debug\WinsockMatTransmissionServer_1.obj
-         NewSubstationDetectionServer.vcxproj -> F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\x64\Debug\NewSubstationDetectionServer.exe
+         NewSubstationDetectionServer.vcxproj -> F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.exe
        FinalizeBuildStatus:
          正在删除文件“x64\Debug\NewSubstationDetectionServer.unsuccessfulbuild”。
          正在对“x64\Debug\NewSubstationDetectionServer.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“F:\代码备份\项目代码备份_2018\NewSubstationDetectionServer_04_06\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”(rebuild 个目标)的操作。
+     1>已完成生成项目“F:\code\NewSubstationDetectionServer\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”(rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:28.41
+已用时间 00:00:28.97

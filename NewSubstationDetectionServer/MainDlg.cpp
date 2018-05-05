@@ -123,7 +123,6 @@ UINT message_socket(LPVOID lpParameter)//必须声明为UINT类型
 	cv::Mat image; 
 	cv::Mat image_1; 
 	cv::Mat image_2;
-	int position = -1;
 	string deviceType;
 	int x =0;
 	int y =0;
@@ -135,12 +134,7 @@ UINT message_socket(LPVOID lpParameter)//必须声明为UINT类型
 	float diffTemp = 0;
 	float speed = 0;
 	int level = 0;
-	int year = 0;
-	int month = 0;
-	int day = 0;
-	int hour = 0;
-	int minute = 0;
-	int second = 0;
+    string detectTime;
 
 	if (socketMat.socketConnect(6666) < 0)  
 	{  
@@ -149,7 +143,7 @@ UINT message_socket(LPVOID lpParameter)//必须声明为UINT类型
 
 	cv::Mat image_3; 
 	int ad = 0;
-	//if (socketMat_1.socketConnect(6667) < 0)  
+	//if (socketMat_receiveVideo.socketConnect(6667) < 0)  
 	//{  
 	//	return FALSE;  
 	//} 
@@ -157,19 +151,12 @@ UINT message_socket(LPVOID lpParameter)//必须声明为UINT类型
 	CString pos;
 	while (1)  
     {  
-        if(socketMat.receive(image,image_1,image_2,position,deviceType,x,y,abnormalDimension,areaMaxTemp,areaAvgTemp,referTemp,enviTemp, diffTemp,speed,level,year,month,day,hour,minute,second) > 0)  
+        if(socketMat.receive(image,image_1,image_2,deviceType,x,y,abnormalDimension,areaMaxTemp,areaAvgTemp,referTemp,enviTemp, diffTemp,speed,level,detectTime) > 0)  
         {  
 			
 		  //AfxMessageBox(L"用户名和密码不匹配"); //不匹配则给出提示框
-			//AfxMessageBox(intToCString(x)+_T(" ")+intToCString(year)); //不匹配则给出提示框
-		  if (position == 1)
-		  {
-			  pos = _T("监测点1");
-		  }else if (position == 2)
-		  {
-			  pos = _T("监测点2");
-		  }
-          Dlg->insertIntoList(pos,x,y,abnormalDimension,areaMaxTemp,areaAvgTemp,referTemp,enviTemp, diffTemp,deviceType,level,year,month,day,hour,minute,second);
+
+          Dlg->insertIntoList(stringToCString(deviceType),x,y,abnormalDimension,areaMaxTemp,areaAvgTemp,Save2Float(referTemp),Save2Float(enviTemp), diffTemp,speed,level,stringToCString(detectTime));
 		  send(socketMat.sockConn, "qican", strlen("qican")+1, 0) ;	
         }  
 
@@ -205,7 +192,7 @@ UINT message_socket_receiveVideo(LPVOID lpParameter)//必须声明为UINT类型
 }
 
 //将异常信息插入到列表中
-void CMainDlg::insertIntoList(CString pos, int x,int y,int abnormalDimension,float areaMaxTemp,float areaAvgTemp,float referTemp,float enviTemp, float diffTemp,string deviceType,int abnormalLevel,int year,int month,int day,int hour,int minute,int second){
+void CMainDlg::insertIntoList(CString deviceType,int x,int y,int AbnormalDimension,float areaMaxTemp,float areaAvgTemp,CString referTemp,CString enviTemp, float referDiffTemp,float speed,int abnormalLevel,CString time){
 
 	int nIndex = m_list.GetItemCount() + 1; //插入数据序号，从1开始
 	CString t;
@@ -218,8 +205,6 @@ void CMainDlg::insertIntoList(CString pos, int x,int y,int abnormalDimension,flo
 	//m_video_list.InsertItem(&lvItem);
 	////插入其它列
 
-	CTime time = GetCurrentTime();
-	CString date = time.Format("%Y-%m-%d");
 
 	CString abnormalCenter = _T("(") + intToCString(x) + _T(",") + intToCString(y) + _T(")");
 	CString abnormalType;
@@ -237,17 +222,17 @@ void CMainDlg::insertIntoList(CString pos, int x,int y,int abnormalDimension,flo
 
 	//插入列表数据
 	m_list.InsertItem(0,(LPCTSTR)t);
-	m_list.SetItemText(0,1, stringToCString(deviceType));
-	m_list.SetItemText(0,2, abnormalCenter);
-	m_list.SetItemText(0,3, Save2Float(abnormalDimension)); 
-	m_list.SetItemText(0,4, Save2Float(areaMaxTemp)); 
-	m_list.SetItemText(0,5, Save2Float(areaAvgTemp));  
-	m_list.SetItemText(0,6, Save2Float(referTemp)); 
-	m_list.SetItemText(0,6, Save2Float(enviTemp)); 
-	m_list.SetItemText(0,7, Save2Float(diffTemp)); 
-	m_list.SetItemText(0,6, Save2Float(0.2)); 
-	m_list.SetItemText(0,8, abnormalType);
-	m_list.SetItemText(0,9, date);
+	m_list.SetItemText(0, 1, deviceType);
+	m_list.SetItemText(0, 2, abnormalCenter);
+	m_list.SetItemText(0, 3,intToCString(AbnormalDimension));
+	m_list.SetItemText(0, 4, Save2Float(areaMaxTemp)); 
+	m_list.SetItemText(0, 5, Save2Float(areaAvgTemp)); 
+	m_list.SetItemText(0, 6, referTemp); 
+	m_list.SetItemText(0, 7, enviTemp); 
+	m_list.SetItemText(0, 8, Save2Float(referDiffTemp)); 
+	m_list.SetItemText(0, 9, Save2Float(speed)); 
+	m_list.SetItemText(0, 10, abnormalType); 
+	m_list.SetItemText(0, 11, time); 
 
 
 

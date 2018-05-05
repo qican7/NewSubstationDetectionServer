@@ -31,7 +31,7 @@ protected:
 public:
 	CListCtrl m_list;
 	virtual BOOL OnInitDialog();
-	virtual void insertIntoList(CString pos, int x,int y,int abnormalDimension,float areaMaxTemp,float areaAvgTemp,float referTemp,float enviTemp,float diffTemp,string deviceType,int abnormalLevel,int year,int month,int day,int hour,int minute,int second);
+	virtual void insertIntoList(CString deviceType,int x,int y,int AbnormalDimension,float areaMaxTemp,float areaAvgTemp,CString referTemp,CString enviTemp, float referDiffTemp,float speed,int abnormalLevel,CString time);
 	CStatic m_infrare;
 	CStatic m_light;
 	virtual void DrawPicToHDC(IplImage *img, UINT ID);

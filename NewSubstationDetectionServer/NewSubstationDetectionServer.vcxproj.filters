@@ -57,13 +57,13 @@
     <ClInclude Include="WinsockMatTransmissionServer_1.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\NewSubstationDetection_06_26_1\NewSubstationDetection\dataBaseUtils.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="DetailsDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="AnalysisDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dataBaseUtils.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -95,13 +95,13 @@
     <ClCompile Include="WinsockMatTransmissionServer_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\NewSubstationDetection_06_26_1\NewSubstationDetection\dataBaseUtils.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="DetailsDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="AnalysisDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dataBaseUtils.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

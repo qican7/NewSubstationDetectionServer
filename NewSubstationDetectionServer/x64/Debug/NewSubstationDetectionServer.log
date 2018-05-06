@@ -1,4 +1,4 @@
-﻿生成启动时间为 2018/5/5 星期六 22:29:50。
+﻿生成启动时间为 2018/5/6 星期日 22:02:10。
      1>项目“F:\code\NewSubstationDetectionServer\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“x64\Debug\NewSubstationDetectionServer.lastbuildstate”。
@@ -30,7 +30,6 @@
          MainDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>MainDlg.cpp(160): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
          DetailsDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
@@ -44,16 +43,16 @@
          AnalysisDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>AnalysisDlg.cpp(503): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-     1>AnalysisDlg.cpp(534): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-     1>AnalysisDlg.cpp(542): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-     1>AnalysisDlg.cpp(551): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-     1>AnalysisDlg.cpp(683): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(683): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(713): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(713): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(745): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(745): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(506): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AnalysisDlg.cpp(537): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AnalysisDlg.cpp(545): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AnalysisDlg.cpp(554): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AnalysisDlg.cpp(686): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(686): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(716): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(716): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(748): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(748): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
          Generating Code...
      1>f:\code\newsubstationdetectionserver\newsubstationdetectionserver\winsockmattransmissionserver.cpp(63): warning C4715: “WinsockMatTransmissionServer::socketConnect”: 不是所有的控件路径都返回值
      1>f:\code\newsubstationdetectionserver\newsubstationdetectionserver\winsockmattransmissionserver_1.cpp(63): warning C4715: “WinsockMatTransmissionServer_1::socketConnect”: 不是所有的控件路径都返回值
@@ -104,4 +103,4 @@
 
 生成成功。
 
-已用时间 00:00:28.97
+已用时间 00:00:24.46

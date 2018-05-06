@@ -134,6 +134,7 @@ UINT message_socket(LPVOID lpParameter)//必须声明为UINT类型
 	float diffTemp = 0;
 	float speed = 0;
 	int level = 0;
+	string detectDate;
     string detectTime;
 
 	if (socketMat.socketConnect(6666) < 0)  
@@ -148,16 +149,15 @@ UINT message_socket(LPVOID lpParameter)//必须声明为UINT类型
 	//	return FALSE;  
 	//} 
 
-	CString pos;
 	while (1)  
     {  
-        if(socketMat.receive(image,image_1,image_2,deviceType,x,y,abnormalDimension,areaMaxTemp,areaAvgTemp,referTemp,enviTemp, diffTemp,speed,level,detectTime) > 0)  
+        if(socketMat.receive(image,image_1,image_2,deviceType,x,y,abnormalDimension,areaMaxTemp,areaAvgTemp,referTemp,enviTemp, diffTemp,speed,level,detectDate,detectTime) > 0)  
         {  
 			
 		  //AfxMessageBox(L"用户名和密码不匹配"); //不匹配则给出提示框
 
-          Dlg->insertIntoList(stringToCString(deviceType),x,y,abnormalDimension,areaMaxTemp,areaAvgTemp,Save2Float(referTemp),Save2Float(enviTemp), diffTemp,speed,level,stringToCString(detectTime));
-		  send(socketMat.sockConn, "qican", strlen("qican")+1, 0) ;	
+          Dlg->insertIntoList(stringToCString(deviceType),x,y,abnormalDimension,areaMaxTemp,areaAvgTemp,Save2Float(referTemp),Save2Float(enviTemp), diffTemp,speed,level, stringToCString(detectDate) + _T("-") + stringToCString(detectTime));
+		  //send(socketMat.sockConn, "qican", strlen("qican")+1, 0) ;	
         }  
 
     }  
@@ -302,6 +302,10 @@ void CMainDlg::OnNMClickList(NMHDR *pNMHDR, LRESULT *pResult)
 void CMainDlg::OnDestroy()
 {
 	CDialogEx::OnDestroy();
+
+	//服务器退出时断开与客户端的连接
+	socketMat.socketDisconnect();
+	socketMat_receiveVideo.socketDisconnect();
 
 	PostQuitMessage(0);
 

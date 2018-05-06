@@ -48,6 +48,7 @@
 		float diffTemp;
 		float speed;
 		int level ;
+		string detectDate;
         string detectTime;
     };  
       
@@ -75,7 +76,7 @@
         // params : image   待接收图像  
         // return : -1      接收失败  
         //          1       接收成功  
-		int receive(cv::Mat image,cv::Mat image_1,cv::Mat image_2,string &deviceType,int &x,int &y,int &abnormalDimension,float &areaMaxTemp,float &areaAvgTemp,float &referTemp,float &enviTemp, float &diffTemp,float &speed,int &level, string &detectTime);  
+		int receive(cv::Mat image,cv::Mat image_1,cv::Mat image_2,string &deviceType,int &x,int &y,int &abnormalDimension,float &areaMaxTemp,float &areaAvgTemp,float &referTemp,float &enviTemp, float &diffTemp,float &speed,int &level, string &detectDate, string &detectTime);  
 
       
       

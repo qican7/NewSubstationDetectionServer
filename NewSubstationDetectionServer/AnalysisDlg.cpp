@@ -223,6 +223,9 @@ void CAnalysisDlg::OnBnClickedanalysisbtn()
 	m_analysis_choiceReferTemp.GetWindowText(referTemp); 
 	referTemp_edit = CStringToFloat(referTemp);
 
+	//清空list中的内容
+	m_analysis_list.DeleteAllItems();
+
 	if (referTemp.IsEmpty())
 	{
 		AfxMessageBox(_T("参考温度不能为空\r\n请输入或在图像上选择参考温度"));

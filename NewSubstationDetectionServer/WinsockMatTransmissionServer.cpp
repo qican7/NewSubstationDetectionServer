@@ -68,7 +68,7 @@
         closesocket(sockConn);  
     }  
       
-    int WinsockMatTransmissionServer::receive(cv::Mat image,cv::Mat image_1,cv::Mat image_2,string &deviceType,int &x,int &y,int &abnormalDimension,float &areaMaxTemp,float &areaAvgTemp,float &referTemp,float &enviTemp,float &diffTemp,float &speed,int &level, string &detectTime)  
+    int WinsockMatTransmissionServer::receive(cv::Mat image,cv::Mat image_1,cv::Mat image_2,string &deviceType,int &x,int &y,int &abnormalDimension,float &areaMaxTemp,float &areaAvgTemp,float &referTemp,float &enviTemp,float &diffTemp,float &speed,int &level, string &detectDate, string &detectTime)  
     {  
         cv::Mat img(IMG_HEIGHT,IMG_WIDTH,CV_8UC3,cv::Scalar(0));  
 		cv::Mat img_1(IMG_HEIGHT,IMG_WIDTH,CV_8UC3,cv::Scalar(0));  
@@ -155,6 +155,7 @@
 						diffTemp = data.diffTemp;
 						speed = data.speed;
 						level = data.level;
+						detectDate = data.detectDate;
                         detectTime = data.detectTime;
 						//AfxMessageBox(intToCString(abnormalDimension)); //不匹配则给出提示框
 						//std::cout<<x<<" "<<y<<" "<<abnormalDimension<<" "<<areaMinTemp<<" "<<areaMaxTemp<<" "<<areaAvgTemp<<" "<<referTemp<<" "<<diffTemp<<" "<<speed<<" "<<level<<" "<<year<<" "<<month<<" "<<day<<" "<<hour<<" "<<minute<<" "<<second<<std::endl;

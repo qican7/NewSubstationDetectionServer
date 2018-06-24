@@ -1,4 +1,4 @@
-﻿生成启动时间为 2018/5/6 星期日 22:02:10。
+﻿生成启动时间为 2018/6/24 星期日 13:23:26。
      1>项目“F:\code\NewSubstationDetectionServer\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“x64\Debug\NewSubstationDetectionServer.lastbuildstate”。
@@ -7,11 +7,14 @@
        ClCompile:
          e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt AnalysisDlg.cpp changeColor.cpp CvvImage.cpp dataBaseUtils.cpp DetailsDlg.cpp MainDlg.cpp NewSubstationDetectionServer.cpp NewSubstationDetectionServerDlg.cpp Utils.cpp WinsockMatTransmissionServer.cpp WinsockMatTransmissionServer_1.cpp
+         e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt AnalysisDlg.cpp changeColor.cpp CvvImage.cpp dataBaseUtils.cpp DetailsDlg.cpp ImageContainer.cpp IRReportDlg.cpp MainDlg.cpp msword.cpp NewSubstationDetectionServer.cpp NewSubstationDetectionServerDlg.cpp SuperResolutionDlg.cpp Utils.cpp UVSRDlg.cpp WinsockMatTransmissionServer.cpp WinsockMatTransmissionServer_1.cpp
          WinsockMatTransmissionServer_1.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
          WinsockMatTransmissionServer.cpp
+     1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
+         UVSRDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
          Utils.cpp
@@ -21,15 +24,31 @@
      1>Utils.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(371) : 参见“sprintf”的声明
      1>Utils.cpp(90): warning C4172: 返回局部变量或临时变量的地址
+         SuperResolutionDlg.cpp
+     1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
          NewSubstationDetectionServerDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
          NewSubstationDetectionServer.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
+         msword.cpp
          MainDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
+         IRReportDlg.cpp
+     1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
+         ImageContainer.cpp
+     1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ImageContainer.cpp(71): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>ImageContainer.cpp(121): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>ImageContainer.cpp(178): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>ImageContainer.cpp(180): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>ImageContainer.cpp(241): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>ImageContainer.cpp(243): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
          DetailsDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
@@ -43,16 +62,16 @@
          AnalysisDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>AnalysisDlg.cpp(506): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-     1>AnalysisDlg.cpp(537): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-     1>AnalysisDlg.cpp(545): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-     1>AnalysisDlg.cpp(554): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-     1>AnalysisDlg.cpp(686): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(686): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(716): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(716): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(748): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>AnalysisDlg.cpp(748): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(525): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AnalysisDlg.cpp(556): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AnalysisDlg.cpp(564): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AnalysisDlg.cpp(573): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AnalysisDlg.cpp(705): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(705): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(735): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(735): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(767): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>AnalysisDlg.cpp(767): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
          Generating Code...
      1>f:\code\newsubstationdetectionserver\newsubstationdetectionserver\winsockmattransmissionserver.cpp(63): warning C4715: “WinsockMatTransmissionServer::socketConnect”: 不是所有的控件路径都返回值
      1>f:\code\newsubstationdetectionserver\newsubstationdetectionserver\winsockmattransmissionserver_1.cpp(63): warning C4715: “WinsockMatTransmissionServer_1::socketConnect”: 不是所有的控件路径都返回值
@@ -68,11 +87,16 @@
          x64\Debug\CvvImage.obj
          x64\Debug\dataBaseUtils.obj
          x64\Debug\DetailsDlg.obj
+         x64\Debug\ImageContainer.obj
+         x64\Debug\IRReportDlg.obj
          x64\Debug\MainDlg.obj
+         x64\Debug\msword.obj
          x64\Debug\NewSubstationDetectionServer.obj
          x64\Debug\NewSubstationDetectionServerDlg.obj
          x64\Debug\stdafx.obj
+         x64\Debug\SuperResolutionDlg.obj
          x64\Debug\Utils.obj
+         x64\Debug\UVSRDlg.obj
          x64\Debug\WinsockMatTransmissionServer.obj
          x64\Debug\WinsockMatTransmissionServer_1.obj
          NewSubstationDetectionServer.vcxproj -> F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.exe
@@ -88,11 +112,16 @@
          x64\Debug\CvvImage.obj
          x64\Debug\dataBaseUtils.obj
          x64\Debug\DetailsDlg.obj
+         x64\Debug\ImageContainer.obj
+         x64\Debug\IRReportDlg.obj
          x64\Debug\MainDlg.obj
+         x64\Debug\msword.obj
          x64\Debug\NewSubstationDetectionServer.obj
          x64\Debug\NewSubstationDetectionServerDlg.obj
          x64\Debug\stdafx.obj
+         x64\Debug\SuperResolutionDlg.obj
          x64\Debug\Utils.obj
+         x64\Debug\UVSRDlg.obj
          x64\Debug\WinsockMatTransmissionServer.obj
          x64\Debug\WinsockMatTransmissionServer_1.obj
          NewSubstationDetectionServer.vcxproj -> F:\code\NewSubstationDetectionServer\x64\Debug\NewSubstationDetectionServer.exe
@@ -103,4 +132,4 @@
 
 生成成功。
 
-已用时间 00:00:24.46
+已用时间 00:00:32.00

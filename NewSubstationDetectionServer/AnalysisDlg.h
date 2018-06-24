@@ -12,6 +12,8 @@
 #include "stdio.h"
 #include "math.h"
 
+#include "UVSRDlg.h"
+
 using namespace std; 
 using namespace cv; 
 
@@ -32,6 +34,8 @@ public:
 	CAnalysisDlg(CWnd* pParent = NULL);   // 标准构造函数
 	virtual ~CAnalysisDlg();
 
+	CUVSRDlg* DialogIRSR;
+
 // 对话框数据
 	enum { IDD = IDD_abPicAnalysisDlg };
 
@@ -40,6 +44,7 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
+
 	CStatic m_analysis_pic;
 	CSliderCtrl m_analysis_slider;
 	CComboBox m_analysis_choiceDeviceType;
@@ -48,6 +53,9 @@ public:
 	CListCtrl m_analysis_list;
 
 	transDataFromDetails data;
+
+
+	
 
 	virtual void DrawPicToHDC(IplImage *img, UINT ID);
 	afx_msg void OnPaint();

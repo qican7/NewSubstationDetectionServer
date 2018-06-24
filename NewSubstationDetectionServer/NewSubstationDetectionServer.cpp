@@ -7,6 +7,7 @@
 #include "NewSubstationDetectionServerDlg.h"
 #include "MainDlg.h"
 #include "AnalysisDlg.h"
+#include "DetailsDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -70,8 +71,9 @@ BOOL CNewSubstationDetectionServerApp::InitInstance()
 	SetRegistryKey(_T("应用程序向导生成的本地应用程序"));
 
 	//CNewSubstationDetectionServerDlg dlg;
-	CMainDlg dlg;
-	//CAnalysisDlg dlg;
+	//CMainDlg dlg;
+	CAnalysisDlg dlg;
+	//CDetailsDlg dlg;
 	m_pMainWnd = &dlg;
 	INT_PTR nResponse = dlg.DoModal();
 	if (nResponse == IDOK)

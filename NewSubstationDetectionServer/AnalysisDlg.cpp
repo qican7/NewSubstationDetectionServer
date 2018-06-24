@@ -7,6 +7,9 @@
 #include "afxdialogex.h"
 #include "Utils.h"
 #include "changeColor.h"
+#include "IRReportDlg.h"
+
+
 
 
 IplImage* colorImage_ori;
@@ -218,6 +221,7 @@ BOOL CAnalysisDlg::OnInitDialog()
 void CAnalysisDlg::OnBnClickedanalysisbtn()
 {
 	// TODO: 在此添加控件通知处理程序代码
+
 
 	CString referTemp;  
 	m_analysis_choiceReferTemp.GetWindowText(referTemp); 
@@ -462,18 +466,33 @@ void CAnalysisDlg::OnRButtonUp(UINT nFlags, CPoint point)
 void CAnalysisDlg::OnBnClickedanalysisbtnchoicearea()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	CString str; 
-	GetDlgItem(IDC_analysis_btn_choiceArea)->GetWindowText(str);
 
-	if (str == _T("选择区域"))
-	{
-		GetDlgItem(IDC_analysis_btn_choiceArea)->SetWindowText(_T("结束选择"));
-		flag_choiceArea = 1;
-	}else if (str == _T("结束选择"))
-	{
-		GetDlgItem(IDC_analysis_btn_choiceArea)->SetWindowText(_T("选择区域"));
-		flag_choiceArea = 0;
-	}
+
+	////超分辨率重建
+	
+	DialogIRSR = new CUVSRDlg;
+	DialogIRSR->Create(IDD_UVSR_DIALOG,this);
+	DialogIRSR->ShowWindow(SW_SHOW);
+
+	//CUVSRDlg dlg;
+	//dlg.DoModal();
+
+	//测试生成报告
+	//CIRReportDlg dlg;
+	//dlg.DoModal();
+
+	//CString str; 
+	//GetDlgItem(IDC_analysis_btn_choiceArea)->GetWindowText(str);
+
+	//if (str == _T("选择区域"))
+	//{
+	//	GetDlgItem(IDC_analysis_btn_choiceArea)->SetWindowText(_T("结束选择"));
+	//	flag_choiceArea = 1;
+	//}else if (str == _T("结束选择"))
+	//{
+	//	GetDlgItem(IDC_analysis_btn_choiceArea)->SetWindowText(_T("选择区域"));
+	//	flag_choiceArea = 0;
+	//}
 
 }
 

@@ -66,6 +66,21 @@
     <ClInclude Include="dataBaseUtils.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SuperResolutionDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IRReportDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="msword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UVSRDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NewSubstationDetectionServer.cpp">
@@ -102,6 +117,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="dataBaseUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperResolutionDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IRReportDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="msword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UVSRDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

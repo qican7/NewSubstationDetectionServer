@@ -6,6 +6,10 @@
 #include "highgui.h"
 #include "CvvImage.h"
 
+#include <GdiPlus.h>
+
+using namespace Gdiplus;
+
 using namespace std; 
 using namespace cv; 
 // CDetailsDlg ¶Ô»°¿ò
@@ -64,4 +68,9 @@ public:
 	afx_msg void OnBnClickedbtnabnormalanalysis();
 
 	IplImage* image;
+
+	//Í¼ÏñËõ·Å
+	CRect rectL;
+
+	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
 };

@@ -190,13 +190,18 @@
     <ClInclude Include="CvvImage.h" />
     <ClInclude Include="dataBaseUtils.h" />
     <ClInclude Include="DetailsDlg.h" />
+    <ClInclude Include="ImageContainer.h" />
+    <ClInclude Include="IRReportDlg.h" />
     <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="msword.h" />
     <ClInclude Include="NewSubstationDetectionServer.h" />
     <ClInclude Include="NewSubstationDetectionServerDlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SuperResolutionDlg.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Utils.h" />
+    <ClInclude Include="UVSRDlg.h" />
     <ClInclude Include="WinsockMatTransmissionServer.h" />
     <ClInclude Include="WinsockMatTransmissionServer_1.h" />
   </ItemGroup>
@@ -206,7 +211,10 @@
     <ClCompile Include="CvvImage.cpp" />
     <ClCompile Include="dataBaseUtils.cpp" />
     <ClCompile Include="DetailsDlg.cpp" />
+    <ClCompile Include="ImageContainer.cpp" />
+    <ClCompile Include="IRReportDlg.cpp" />
     <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="msword.cpp" />
     <ClCompile Include="NewSubstationDetectionServer.cpp" />
     <ClCompile Include="NewSubstationDetectionServerDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -215,7 +223,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="SuperResolutionDlg.cpp" />
     <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="UVSRDlg.cpp" />
     <ClCompile Include="WinsockMatTransmissionServer.cpp" />
     <ClCompile Include="WinsockMatTransmissionServer_1.cpp" />
   </ItemGroup>

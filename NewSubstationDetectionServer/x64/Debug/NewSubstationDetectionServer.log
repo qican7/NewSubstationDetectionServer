@@ -1,4 +1,4 @@
-﻿生成启动时间为 2018/6/24 星期日 13:23:26。
+﻿生成启动时间为 2018/6/27 星期三 17:01:22。
      1>项目“F:\code\NewSubstationDetectionServer\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“x64\Debug\NewSubstationDetectionServer.lastbuildstate”。
@@ -7,7 +7,7 @@
        ClCompile:
          e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt AnalysisDlg.cpp changeColor.cpp CvvImage.cpp dataBaseUtils.cpp DetailsDlg.cpp ImageContainer.cpp IRReportDlg.cpp MainDlg.cpp msword.cpp NewSubstationDetectionServer.cpp NewSubstationDetectionServerDlg.cpp SuperResolutionDlg.cpp Utils.cpp UVSRDlg.cpp WinsockMatTransmissionServer.cpp WinsockMatTransmissionServer_1.cpp
+         e:\software_new\vs_2010_install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\NewSubstationDetectionServer.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt AnalysisDlg.cpp changeColor.cpp CvvImage.cpp dataBaseUtils.cpp DetailsDlg.cpp ImageContainer.cpp IRReportDlg.cpp MainDlg.cpp msword.cpp MUTDlg.cpp NewSubstationDetectionServer.cpp NewSubstationDetectionServerDlg.cpp SuperResolutionDlg.cpp Utils.cpp UVSRDlg.cpp WinsockMatTransmissionServer.cpp WinsockMatTransmissionServer_1.cpp
          WinsockMatTransmissionServer_1.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
@@ -33,6 +33,26 @@
          NewSubstationDetectionServer.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
+         MUTDlg.cpp
+     1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>MUTDlg.cpp(586): warning C4101: “tmptmp”: 未引用的局部变量
+     1>MUTDlg.cpp(1424): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1435): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1435): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1436): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1436): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1443): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1411): warning C4101: “i”: 未引用的局部变量
+     1>MUTDlg.cpp(1411): warning C4101: “j”: 未引用的局部变量
+     1>MUTDlg.cpp(1474): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1539): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1525): warning C4101: “Matimg”: 未引用的局部变量
+     1>MUTDlg.cpp(1788): warning C4101: “i”: 未引用的局部变量
+     1>MUTDlg.cpp(1788): warning C4101: “j”: 未引用的局部变量
+     1>MUTDlg.cpp(1823): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1889): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>MUTDlg.cpp(1874): warning C4101: “Matimg”: 未引用的局部变量
          msword.cpp
          MainDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -91,6 +111,7 @@
          x64\Debug\IRReportDlg.obj
          x64\Debug\MainDlg.obj
          x64\Debug\msword.obj
+         x64\Debug\MUTDlg.obj
          x64\Debug\NewSubstationDetectionServer.obj
          x64\Debug\NewSubstationDetectionServerDlg.obj
          x64\Debug\stdafx.obj
@@ -116,6 +137,7 @@
          x64\Debug\IRReportDlg.obj
          x64\Debug\MainDlg.obj
          x64\Debug\msword.obj
+         x64\Debug\MUTDlg.obj
          x64\Debug\NewSubstationDetectionServer.obj
          x64\Debug\NewSubstationDetectionServerDlg.obj
          x64\Debug\stdafx.obj
@@ -132,4 +154,4 @@
 
 生成成功。
 
-已用时间 00:00:32.00
+已用时间 00:00:34.31

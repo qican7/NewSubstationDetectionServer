@@ -194,6 +194,7 @@
     <ClInclude Include="IRReportDlg.h" />
     <ClInclude Include="MainDlg.h" />
     <ClInclude Include="msword.h" />
+    <ClInclude Include="MUTDlg.h" />
     <ClInclude Include="NewSubstationDetectionServer.h" />
     <ClInclude Include="NewSubstationDetectionServerDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -215,6 +216,7 @@
     <ClCompile Include="IRReportDlg.cpp" />
     <ClCompile Include="MainDlg.cpp" />
     <ClCompile Include="msword.cpp" />
+    <ClCompile Include="MUTDlg.cpp" />
     <ClCompile Include="NewSubstationDetectionServer.cpp" />
     <ClCompile Include="NewSubstationDetectionServerDlg.cpp" />
     <ClCompile Include="stdafx.cpp">

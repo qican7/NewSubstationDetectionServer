@@ -8,6 +8,7 @@
 #include "MainDlg.h"
 #include "AnalysisDlg.h"
 #include "DetailsDlg.h"
+#include "MUTDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -72,7 +73,8 @@ BOOL CNewSubstationDetectionServerApp::InitInstance()
 
 	//CNewSubstationDetectionServerDlg dlg;
 	//CMainDlg dlg;
-	CAnalysisDlg dlg;
+	//CAnalysisDlg dlg;
+	CMUTDlg dlg;
 	//CDetailsDlg dlg;
 	m_pMainWnd = &dlg;
 	INT_PTR nResponse = dlg.DoModal();

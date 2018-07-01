@@ -1,4 +1,4 @@
-﻿生成启动时间为 2018/6/27 星期三 17:01:22。
+﻿生成启动时间为 2018/6/27 星期三 22:35:01。
      1>项目“F:\code\NewSubstationDetectionServer\NewSubstationDetectionServer\NewSubstationDetectionServer.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“x64\Debug\NewSubstationDetectionServer.lastbuildstate”。
@@ -36,23 +36,7 @@
          MUTDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\software_new\vs_2010_install\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>MUTDlg.cpp(586): warning C4101: “tmptmp”: 未引用的局部变量
-     1>MUTDlg.cpp(1424): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1435): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1435): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1436): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1436): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1443): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1411): warning C4101: “i”: 未引用的局部变量
-     1>MUTDlg.cpp(1411): warning C4101: “j”: 未引用的局部变量
-     1>MUTDlg.cpp(1474): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1539): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1525): warning C4101: “Matimg”: 未引用的局部变量
-     1>MUTDlg.cpp(1788): warning C4101: “i”: 未引用的局部变量
-     1>MUTDlg.cpp(1788): warning C4101: “j”: 未引用的局部变量
-     1>MUTDlg.cpp(1823): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1889): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
-     1>MUTDlg.cpp(1874): warning C4101: “Matimg”: 未引用的局部变量
+     1>MUTDlg.cpp(283): warning C4101: “tmptmp”: 未引用的局部变量
          msword.cpp
          MainDlg.cpp
      1>e:\software_new\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -154,4 +138,4 @@
 
 生成成功。
 
-已用时间 00:00:34.31
+已用时间 00:00:33.60
